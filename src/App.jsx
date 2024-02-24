@@ -17,9 +17,9 @@ function App() {
   return (
     <main>
       <div className='flex relative'>
-        <div className='w-72 fixed shadow-md h-screen'>
+        <aside className='w-72 fixed shadow-md h-screen'>
           <Sidebar />
-        </div>
+        </aside>
 
         <div className='fixed md:w-[80%] ml-72'>
           <Header />
